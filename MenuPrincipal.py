@@ -19,7 +19,7 @@ def main():
             apellido = input("Ingrese Apellido: ")
             carnet = input("Ingrese Carnet: ")
             nuevoNodo = NodoDoblementeEnlazada.NodoDoblementeEnlazada(nombre, apellido, carnet)
-            nuevaLista.insertar_al_principio(nuevoNodo)
+            nuevaLista.insertar_al_inicio(nuevoNodo)
             print("Nodo Agregado")
         elif choice == "2":
             nombre = input("Ingrese Nombre: ")
@@ -32,9 +32,10 @@ def main():
             nuevaLista.eliminar_por_valor(carnet)
         elif choice == "4":
             nuevaLista.imprimirLista()
-            break
+            
         elif choice == "5":
             print("Saliendo...")
             break
         else:
             print("Opcion Invalida, ingrese valor de 1-5")
+main()

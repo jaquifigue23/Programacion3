@@ -61,7 +61,7 @@ class ListaDoblementeEnlazada:
                 print(tmp.nombre + tmp.apellido + tmp.carnet)
                 tmp = tmp.siguiente
                
-nuevaLista = ListaDoblementeEnlazada()
+""" nuevaLista = ListaDoblementeEnlazada()
 
 nuevoNodo1 = NodoDoblementeEnlazada.NodoDoblementeEnlazada("oscar", "lopez", "456")
 nuevoNodo2 = NodoDoblementeEnlazada.NodoDoblementeEnlazada("jaqui", "lopez", "123")
@@ -76,6 +76,6 @@ nuevaLista.insertar_al_final(nuevoNodo4)
 
 nuevaLista.eliminar_por_valor("741")
 nuevaLista.eliminar_por_valor("456")
-nuevaLista.imprimirLista()
+nuevaLista.imprimirLista() """
 
 
