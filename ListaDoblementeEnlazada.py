@@ -55,6 +55,14 @@ class ListaDoblementeEnlazada:
                     tmp = tmp.siguiente
                             
     def imprimirLista(Self):
+
+            tmp = Self.cabeza
+            
+            while(tmp != None):
+                print(tmp.nombre + tmp.apellido + tmp.carnet)
+                tmp = tmp.siguiente
+               
+
         tmp=Self.cabeza
         while(tmp != None):
             if(tmp.anterior == None):
@@ -72,6 +80,7 @@ class ListaDoblementeEnlazada:
             tmp = tmp.siguiente
         print("")    
             
+ main
 """ nuevaLista = ListaDoblementeEnlazada()
 
 nuevoNodo1 = NodoDoblementeEnlazada.NodoDoblementeEnlazada("oscar", "lopez", "456")
